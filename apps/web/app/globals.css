@@ -1,0 +1,16 @@
+
+html, body { margin: 0; padding: 0; font-family: Arial, sans-serif; background: #f5f8fc; color: #122033; }
+* { box-sizing: border-box; }
+.container { max-width: 1200px; margin: 0 auto; padding: 32px; }
+.hero { background: linear-gradient(135deg, #163a6b, #2459a8); color: white; border-radius: 24px; padding: 32px; box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
+.grid { display:grid; grid-template-columns: 1.4fr 1fr; gap: 24px; margin-top: 24px; }
+.card { background:white; border-radius: 20px; padding: 24px; box-shadow: 0 10px 25px rgba(16,37,63,.08); }
+.badge { display:inline-block; padding:8px 12px; border-radius:999px; background:#e9f1ff; color:#2459a8; font-size:14px; }
+.muted { color:#5c6f8a; }
+.answer-section { border-top:1px solid #e7edf5; padding-top:16px; margin-top:16px; }
+.two-col { display:grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.metric { background:#f7faff; padding:16px; border-radius:16px; border:1px solid #dce8fb; }
+.nav { display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; }
+.button { background:#2459a8; color:white; border:none; border-radius:12px; padding:12px 18px; }
+.input { width:100%; padding:14px 16px; border-radius:14px; border:1px solid #d1ddee; font-size:16px; margin-top:12px; }
+ul { padding-left: 18px; }
