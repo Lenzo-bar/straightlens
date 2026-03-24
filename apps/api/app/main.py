@@ -20,6 +20,14 @@ class AskResponse(BaseModel):
 def health():
     return {"status": "ok", "service": "StraightLens API"}
 
+@app.get("/")
+def root():
+    return {
+        "name": "StraightLens API",
+        "status": "live",
+        "message": "StraightLens backend is running."
+    }
+    
 @app.post("/api/ask", response_model=AskResponse)
 def ask(req: AskRequest):
     q = req.question.strip()
