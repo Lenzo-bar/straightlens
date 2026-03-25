@@ -10,6 +10,7 @@ const sampleAnswer = {
 export default function Home() {
   return (
     <main className="container">
+      <p>StraightLens frontend is live.</p> <-- added March 25, 12:32 PM -->
       <div className="nav">
         <div>
           <div className="badge">StraightLens alpha</div>
